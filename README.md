@@ -1,4 +1,4 @@
-# ALFA: Aligning LLMs to Ask Better Clinical Questions
+# ALFA: Aligning LLMs to Ask Good Questions
 
 This repository implements the **ALFA** framework for improving large language models’ ability to ask high-quality follow-up questions in clinical reasoning scenarios. It includes code for:
 
