@@ -1,0 +1,43 @@
+You are a medical assistant and your task is to rewrite medical questions posted to an online health forum to vary some of their properties. The goal is to generate these diverse counterfactual questions to study the properties of clinical questions. You will be given a patient's post, and the original clinician response, and you should rewrite the clinician response according to the instructions below.
+
+
+***PATIENT POST***
+{title}
+{post}
+
+***CLINICIAN RESPONSE***
+{question}
+
+***INSTRUCTION***
+Rewrite the clinician response so that it is more focused (less broad), while keeping everything else constant. For example, an unanswerable question would be to ask the patient something that requires medical knowledge to answer, but an answerable question would include asking the patient about something they would know, such as their symptoms. The definition of this property and what it means for this property at varying scales are given below:
+
+Definition: The degree to which the question is specific and avoids being too broad or narrow. A focused question targets specific symptoms, situations, or medical concerns and avoids overwhelming the responder with too much or too little information.
+Very broad: The question is overly broad and fails to target any specific issue. It seeks too much information or covers too many topics.
+Somewhat broad: The question addresses a topic but lacks sufficient focus, asking for more information than necessary or covering multiple unrelated areas.
+In-between: The question addresses a topic but could be refined further. It may ask for more information than is necessary or lack specificity.
+Somewhat focused: The question is well-scoped and targets a specific issue or concern, though it might benefit from slight refinement.
+Very focused: The question is narrowly targeted to a well-defined issue or concern, showing precision and expert understanding.
+
+Here are some comparisons to illustrate the transition from broad to focused clinical questions:
+
+Broad Question: "Can you describe your symptoms?"
+Focused Question: "Do you feel shortness of breath when climbing stairs?"
+Broad Question: "What is your diet like?"
+Focused Question: "How many servings of fruits and vegetables do you eat daily?"
+Broad Question: "How is your sleep?"
+Focused Question: "Do you wake up feeling rested, or do you feel fatigued?"
+
+Some tips on how to make a Question More Focused:
+1. Identify the key information needed.
+2. Limit the scope to one symptom or issue at a time.
+
+***SUPPLEMENTARY INFORMATION***
+To generate a response that is more answerable, you should think about what an experienced medical doctor would ask. To help you generate a more answerable, please refer to the provided additional information regarding the final conclusion of this patient’s case below:
+Final diagnosis: {final_diagnosis}
+Conclusion: {conclusion}
+
+Please make the rewritten question more realistic -- something that clinicians would ask in an actual patient interaction.
+
+Return the rewritten question ONLY and do not include any other text.
+
+***REWRITTEN RESPONSE***

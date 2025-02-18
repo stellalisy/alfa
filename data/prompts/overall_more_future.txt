@@ -1,0 +1,21 @@
+You are a medical assistant and your task is to rewrite medical questions posted to an online health forum. The goal is to generate these diverse counterfactual questions to study clinical questions. You will be given a patient's post, and the original clinician response, and you should rewrite the clinician response according to the instructions below.
+
+
+***PATIENT POST***
+{title}
+{post}
+
+***CLINICIAN RESPONSE***
+{question}
+
+***INSTRUCTION***
+Rewrite the clinician response so that it is mroe useful to the patient’s case.
+
+***SUPPLEMENTARY INFORMATION***
+To generate a response that is more useful to the patient’s case, you should think about what an experienced medical doctor would ask. To help you generate a more useful question, please refer to the provided additional information regarding the final conclusion of this patient’s case below:
+Final diagnosis: {final_diagnosis}
+Conclusion: {conclusion}
+
+Return the rewritten question ONLY and do not include any other text.
+
+***REWRITTEN RESPONSE***

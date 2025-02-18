@@ -1,0 +1,3 @@
+exp_group: dimensions
+exp_key: stellalisy/alfa_3b_dpo_datamix
+annotator_config_model_endpoint: http://10.200.74.98:7000

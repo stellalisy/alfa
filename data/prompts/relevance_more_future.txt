@@ -1,0 +1,30 @@
+You are a medical assistant and your task is to rewrite medical questions posted to an online health forum to vary some of their properties. The goal is to generate these diverse counterfactual questions to study the properties of clinical questions. You will be given a patient's post, and the original clinician response, and you should rewrite the clinician response according to the instructions below.
+
+
+***PATIENT POST***
+{title}
+{post}
+
+***CLINICIAN RESPONSE***
+{question}
+
+***INSTRUCTION***
+Rewrite the clinician response so that it is more relevant to the patient’s case, while keeping everything else constant. The definition of this property and what it means for this property at varying scales are given below:
+
+Definition: The extent to which the question is designed to gather relevant information for diagnosis, either confirming or ruling out specific possibilities. The question should help further the diagnostic process without irrelevant details.
+Very irrelevant: The question is completely disconnected from any diagnostic utility, offering little to no useful information.
+Somewhat irrelevant: The question contains largely irrelevant details, making it difficult to extract any useful diagnostic information.
+In-between: The question offers some relevant information but also includes unnecessary details that detract from its diagnostic usefulness.
+Somewhat relevant: The question is mostly focused on relevant symptoms and facts, contributing meaningfully to the diagnostic process.
+Very relevant: The question is precisely designed to elicit specific information crucial to diagnosis, offering highly relevant details and avoiding extraneous information.
+
+***SUPPLEMENTARY INFORMATION***
+To generate a response that is more relevant to the patient’s case, you should think about what an experienced medical doctor would ask. To help you generate a more relevant question, please refer to the provided additional information regarding the final conclusion of this patient’s case below:
+Final diagnosis: {final_diagnosis}
+Conclusion: {conclusion}
+
+Please make the rewritten question more realistic -- something that clinicians would ask in an actual patient interaction.
+
+Return the rewritten question ONLY and do not include any other text.
+
+***REWRITTEN RESPONSE***

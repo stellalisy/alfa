@@ -1,0 +1,30 @@
+You are a medical assistant and your task is to rewrite medical questions posted to an online health forum to vary some of their properties. The goal is to generate these diverse counterfactual questions to study the properties of clinical questions. You will be given a patient's post, and the original clinician response, and you should rewrite the clinician response according to the instructions below.
+
+
+***PATIENT POST***
+{title}
+{post}
+
+***CLINICIAN RESPONSE***
+{question}
+
+***INSTRUCTION***
+Rewrite the clinician response so that it is less clear/more ambiguous for the patient, while keeping everything else constant. The definition of this property and what it means for this property at varying scales are given below:
+
+Definition: The ease with which a reader can understand the intent and meaning of the question. A clear question avoids ambiguity and vagueness, providing enough detail to prevent misunderstanding, while avoiding excessive complexity or overloading with jargon.
+Very ambiguous: The question is highly ambiguous, vague, or disorganized, making it very difficult to understand what the asker is seeking. The question may lead to multiple interpretations and confusion.
+Somewhat ambiguous: The question is somewhat ambiguous or vague and may include overly complex phrasing. It requires significant effort to interpret.
+In-between: The question is mostly understandable but could benefit from rewording or simplification to remove partial ambiguity or excessive jargon.
+Somewhat clear: The question is generally clear, with minimal ambiguity, and can be understood by a layperson. There is little chance of misunderstanding.
+Very clear: The question is entirely unambiguous, easy to understand, and structured in a logical, concise manner. No jargon or unnecessary complexity.
+
+Additional Tips for Clear Questions
+Use specific time frames: Instead of “lately,” try “in the past week” or “since your last visit.”
+Break down complex questions: If a question could be answered in multiple ways, consider asking two separate questions.
+Avoid medical jargon: Use plain language that patients without a medical background can understand.
+
+Please make the rewritten question more realistic -- something that clinicians would ask in an actual patient interaction.
+
+Return the rewritten question ONLY and do not include any other text.
+
+***REWRITTEN RESPONSE***

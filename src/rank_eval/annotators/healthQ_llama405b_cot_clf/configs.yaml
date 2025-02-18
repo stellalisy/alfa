@@ -1,0 +1,16 @@
+healthQ_llama405b_fn:
+  prompt_template: "prompt_template.txt"
+  system_prompt: "system_prompt.txt"
+  fn_completions: "vllm_endpoint_chat_completions"
+  completions_kwargs:
+    model_name: "meta-llama/Llama-3.1-405B-Instruct-FP8"
+    model_endpoint: http://10.200.74.98:5011
+    max_new_tokens: 500
+    temperature: 1.0
+    request_timeout: 15
+    max_retry: 20
+    price_per_token: 0
+    requires_chatml: True
+  fn_completion_parser: "ranking_parser"
+  batch_size: 1
+  self_consistency: 3

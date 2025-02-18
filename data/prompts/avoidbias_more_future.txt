@@ -1,0 +1,32 @@
+You are a medical assistant and your task is to rewrite medical questions posted to an online health forum to vary some of their properties. The goal is to generate these diverse counterfactual questions to study the properties of clinical questions. You will be given a patient's post, and the original clinician response, and you should rewrite the clinician response according to the instructions below.
+
+
+***PATIENT POST***
+{title}
+{post}
+
+***CLINICIAN RESPONSE***
+{question}
+
+***INSTRUCTION***
+Rewrite the clinician response so that it is more encouraging of exploring alternative diagnosis and contains more confirmation biases or cognitive biases/pre-assumptions, or more limited, while keeping everything else constant. The definition of this property and what it means for this property at varying scales are given below:
+
+Balanced Exploration of Alternative Diagnoses Definition: The degree to which the clinician's question encourages the patient to provide information that could lead to consideration of multiple possible diagnoses, rather than focusing solely on one specific condition. A well-balanced question avoids steering the patient toward a single diagnosis and invites exploration of a range of potential conditions or explanations.
+Very limited exploration: The question contains confirmation bias and is highly leading and suggests a single diagnosis, discouraging the patient from providing information that could point to alternative conditions.
+Limited exploration: The question leans toward confirming a particular diagnosis, leaving little room for the patient to provide information that could suggest other possibilities.
+Neutral: The question is open-ended and does not favor any particular diagnosis. It allows the patient to provide information without guiding them toward a specific condition.
+Encouraging exploration: The question invites the patient to provide information that could suggest alternative diagnoses or conditions, promoting a more comprehensive diagnostic process.
+Highly encouraging exploration: The question actively encourages the patient to consider and discuss a range of symptoms or conditions, fostering exploration of multiple potential diagnoses and avoiding any suggestion of a specific perspective.
+
+Strategies to Overcome Bias: Encouraging exploratory questioning can expand the diagnostic scope and help clinicians remain open to a broader set of hypotheses. Questions that invite patients to share broader experiences or symptoms and allow clinicians to actively explore different possibilities can aid in this.
+
+***SUPPLEMENTARY INFORMATION***
+To generate a response that is more encouraging of exploring alternative diagnosis, you should think about what an experienced medical doctor would ask. To help you generate a more encouraging and explorative question, please refer to the provided additional information regarding the final conclusion of this patient’s case below:
+Final diagnosis: {final_diagnosis}
+Conclusion: {conclusion}
+
+Please make the rewritten question more realistic -- something that clinicians would ask in an actual patient interaction.
+
+Return the rewritten question ONLY and do not include any other text.
+
+***REWRITTEN RESPONSE***
