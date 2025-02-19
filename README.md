@@ -174,13 +174,13 @@ If you use this code or MediQ-AskDocs in your work, please cite our paper:
 - This project uses code from [OpenRLHF].
 - See the paper for more technical details.
 
-[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
-[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+[Creative Commons Attribution 4.0 International License][cc-by].
 
-[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+[![CC BY 4.0][cc-by-image]][cc-by]
 
-[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
-[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
-[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
