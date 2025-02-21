@@ -162,11 +162,14 @@ example_run.sh files are provided in the training, mediq_eval, and rank_eval dir
 If you use this code or MediQ-AskDocs in your work, please cite our paper:
 
 ```
-@inproceedings{li2025aligningllmstoaskgoodquestions,
-  title={Aligning LLMs to Ask Good Questions: A Case Study in Clinical Reasoning},
-  author={Li, Shuyue Stella and Mun, Jimin and Brahman, Faeze and Ilgen, Jonathan S. and Tsvetkov, Yulia and Sap, Maarten},
-  booktitle={Arxiv},
-  year={2025}
+@misc{li2025aligningllmsaskgood,
+      title={Aligning LLMs to Ask Good Questions A Case Study in Clinical Reasoning},
+      author={Shuyue Stella Li and Jimin Mun and Faeze Brahman and Jonathan S. Ilgen and Yulia Tsvetkov and Maarten Sap},
+      year={2025},
+      eprint={2502.14860},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.14860},
 }
 ```
 
